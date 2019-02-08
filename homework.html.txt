@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+sup{color:red;}
+
+</style>
+<title>bitm seip reg</title>
+
+</head>
+<body>
+<h3>Select Course (One person will be eligible for one course only)</h3>
+<table>
+<form action="" method="">
+<tr>
+		<td>First preference<sup>*</sup>:</td>
+		<td>
+			<select>
+				<option>Select course</option>
+				<option>Web App Develop PHP</option>
+				<option>Web App Develop-DotNet</option>
+				<option>Affiliate Marketing</option>
+				<option>English & Business communication</option>
+				<option>Server Administration &Cloud Management</option>
+				<option>IT Support Technical</option>
+				<option>IT Sales</option>
+				<option>Customer Support & service</option>
+				<option>Practica SEO</option>
+				<option>Web Design</option>
+				<option>Graphics & Web UI Design</option>
+				<option>Mobile App Develop</option>
+				<option>Digital Marketing Course</option>
+	
+			</select>
+		</td>
+	</tr>
+	<tr>
+	<td>Second preference<sup>*</sup>:</td>
+		<td>
+			<select>
+				<option>Select course</option>
+				<option>Web App Develop PHP</option>
+				<option>Web App Develop-DotNet</option>
+				<option>Affiliate Marketing</option>
+				<option>English & Business communication</option>
+				<option>Server Administration &Cloud Management</option>
+				<option>IT Support Technical</option>
+				<option>IT Sales</option>
+				<option>Customer Support & service</option>
+				<option>Practica SEO</option>
+				<option>Web Design</option>
+				<option>Graphics & Web UI Design</option>
+				<option>Mobile App Develop</option>
+				<option>Digital Marketing Course</option>
+	
+			</select>
+		</td>
+	</tr>
+	<tr>
+	<td>Third preference<sup>*</sup>:</td>
+		<td>
+			<select>
+				<option>Select course</option>
+				<option>Web App Develop PHP</option>
+				<option>Web App Develop-DotNet</option>
+				<option>Affiliate Marketing</option>
+				<option>English & Business communication</option>
+				<option>Server Administration &Cloud Management</option>
+				<option>IT Support Technical</option>
+				<option>IT Sales</option>
+				<option>Customer Support & service</option>
+				<option>Practica SEO</option>
+				<option>Web Design</option>
+				<option>Graphics & Web UI Design</option>
+				<option>Mobile App Develop</option>
+				<option>Digital Marketing Course</option>
+	
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>Name:<sup>*</sup></td>
+	</tr>
+	<tr>
+		<td><input type="text" name="first_name" id="firstName"></td>
+	</tr>
+	<tr>
+		<td>Father Name:<sup>*</sup></td>
+		<td>Mother Name:<sup>*</sup></td>
+		<td>Gender:<sup>*</sup></td>
+	</tr>
+	<tr>
+	<td><input type="text" name="father_name" id="fatherName"></td>
+	<td><input type="text" name="father_name" id="fatherName"></td>
+	<td>
+			<select>
+				<option value="Select Gender">Select Gender</option>
+				<option>Male</option>
+				<option>Female</option>
+			
+			</select>
+	</td>
+	
+	</tr>
+	<tr>
+	<td>National ID:</td>
+	</tr>
+	<tr>
+	<td>
+	<input type="number" name="national_id" id="nationalId" min="0">
+	</td>
+	
+	</tr>
+	<tr>
+	<td>Date Of Birth:<sup>*</sup></td>
+	<td>Religion:<sup>*</sup></td>
+	<td>Ethnic Group:<sup>*</sup></td>
+	</tr>
+	<tr>
+	<td>
+	<input type="datetime-local" name="dateofbirth" id="dateofbirth"><br>
+	</td><br>
+	<td>
+	<select>
+		<option>Select Religion</option>
+		<option>Islam</option>
+		<option>Hinduism</option>
+		<option>Buddhism</option>
+		<option>Christianity</option>
+	</select>
+	</td>
+	<td>
+	<select>
+	<option>Select Ethnic Group</option>
+	<option>Armanian community of dhaka</option>
+	<option>Armenans in Bangladesh</option>
+	<option>Bagdi caste</option>
+	<option>Bom people</option>
+	<option>Bede people</option>
+	<option>Bedia(Muslim caste)</option>
+	<option>Zo people</option>
+	<option>Zomi nationalism</option>
+	<option>Naulak</option>	
+	</select>
+	</td>
+	</tr>
+	<tr>
+	<td>Mobile:<sup>*</sup></td>
+	<td>Email:<sup>*</sup></td>
+	</tr>
+	<tr>
+	
+	<td><input type="Number" name="mobile" id="mobileNumber" min="+008"></td>
+	<td><input type="email" name="email_address" id="emailAddress"></td>
+	
+	</tr>
+	
+	<tr>
+	<td></td>
+	<td>Monthly Income:<sup>*</sup></td>
+	</tr>
+	<tr>
+	<td>Is Employed?
+	<input type="radio" name="is_employed" value="Yes">Yes
+	<input type="radio" name="is_employed" value="No">No
+	</td>
+	<td>
+	<input type="number" name="monthly_income" min="0">
+	</td>
+	</tr>
+</form>
+</table>
+<h2>Present Address</h2>
+<hr>
+<table>
+<form action="" method="">
+<tr>
+<td>Address:<sup>*</sup></td>
+</tr>
+<tr>
+<td><textarea rows="1" cols="100"></textarea></td>
+</tr>
+<tr>
+<td>City:<sup>*</sup></td>
+<td>Post Code:<sup>*</sup></td>
+</tr>
+<tr>
+	<td><input type="text" name="city"></td>
+	<td><input type="number" name="post_code"</td>
+</tr>
+<tr>
+<td>Division:<sup>*</sup></td>
+<td>District:<sup>*</sup></td>
+<td>Sub District:<sup>*</sup></td>
+</tr>
+<tr>
+	<td>
+	<select>
+		<option>Select Division</option>
+		<option>Barisal</option>
+		<option>Dhaka</option>	
+		<option>Chittagong</option>
+		<option>Khulna</option>
+		<option>Rajshahi</option>
+		<option>Rangpur</option>
+		<option>Sylhet</option>
+	</select>
+	</td>
+	<td>
+		<select>
+			<option>Select District</option>
+			<option>Dhaka</option>
+			<option>Faridpur</option>
+			<option>Gazipur</option>
+			<option>Gopalganj</option>
+			<option>Jamalpur</option>
+			<option>Kishorgonj</option>
+			<option>Madaripur</option>
+			<option>Manikganj</option>
+			<option>Munshiganj</option>
+			<option>MYmansingh</option>
+			<option>Narayanganj</option>
+			<option>Narsingdi</option>
+			<option>Netrakona</option>
+			<option>Rajbari</option>
+			<option>Sariatpur</option>
+			<option>Sherpur</option>
+			<option>Tangail</option>
+		</select>
+	<td>
+		
+		<select>
+			<option>Select Sub-District</option>
+			<option>Dhaka</option>
+			<option>Faridpur</option>
+			<option>Gazipur</option>
+			<option>Gopalganj</option>
+			<option>Jamalpur</option>
+			<option>Kishorgonj</option>
+			<option>Madaripur</option>
+			<option>Manikganj</option>
+			<option>Munshiganj</option>
+			<option>MYmansingh</option>
+			<option>Narayanganj</option>
+			<option>Narsingdi</option>
+			<option>Netrakona</option>
+			<option>Rajbari</option>
+			<option>Sariatpur</option>
+			<option>Sherpur</option>
+			<option>Tangail</option>
+		</select>	
+	</td>
+</tr>
+</form>
+</table>
+<h2>Permanent Address</h2>
+<hr>
+<table>
+<form>
+<tr>
+<td>Address:<sup>*</sup></td>
+</tr>
+<tr>
+<td><textarea rows="1" cols="100"></textarea></td>
+</tr>
+<tr>
+<td>City:<sup>*</sup></td>
+<td>Post Code:<sup>*</sup></td>
+</tr>
+<tr>
+	<td><input type="text" name="city"></td>
+	<td><input type="number" name="post_code"</td>
+</tr>
+<tr>
+<td>Division:<sup>*</sup></td>
+<td>District:<sup>*</sup></td>
+<td>Sub District:<sup>*</sup></td>
+</tr>
+<tr>
+	<td>
+	<select>
+		<option>Select Division</option>
+		<option>Barisal</option>
+		<option>Dhaka</option>	
+		<option>Chittagong</option>
+		<option>Khulna</option>
+		<option>Rajshahi</option>
+		<option>Rangpur</option>
+		<option>Sylhet</option>
+	</select>
+	</td>
+	<td>
+		<select>
+			<option>Select District</option>
+			<option>Dhaka</option>
+			<option>Faridpur</option>
+			<option>Gazipur</option>
+			<option>Gopalganj</option>
+			<option>Jamalpur</option>
+			<option>Kishorgonj</option>
+			<option>Madaripur</option>
+			<option>Manikganj</option>
+			<option>Munshiganj</option>
+			<option>MYmansingh</option>
+			<option>Narayanganj</option>
+			<option>Narsingdi</option>
+			<option>Netrakona</option>
+			<option>Rajbari</option>
+			<option>Sariatpur</option>
+			<option>Sherpur</option>
+			<option>Tangail</option>
+		</select>
+	<td>
+		
+		<select>
+			<option>Select Sub-District</option>
+			<option>Dhaka</option>
+			<option>Faridpur</option>
+			<option>Gazipur</option>
+			<option>Gopalganj</option>
+			<option>Jamalpur</option>
+			<option>Kishorgonj</option>
+			<option>Madaripur</option>
+			<option>Manikganj</option>
+			<option>Munshiganj</option>
+			<option>MYmansingh</option>
+			<option>Narayanganj</option>
+			<option>Narsingdi</option>
+			<option>Netrakona</option>
+			<option>Rajbari</option>
+			<option>Sariatpur</option>
+			<option>Sherpur</option>
+			<option>Tangail</option>
+		</select>	
+	</td>
+</tr>
+</form>
+</table>
+<h2>Heighest Academic Achievement</h2>
+<hr>
+<table>
+
+<tr>
+	<td colspan="2">Level of Education:</td>
+	<td>Institute:</td>
+</tr>
+<tr>
+	<form action="">
+	<td colspan="2">
+	
+	<input type="text" name="level_of_education">
+	</td>
+	<td>
+	<input type="text" name="institute">
+	</td>
+	</form>
+</tr>
+<tr>
+
+	<td colspan="2">Subject:</td>
+	<td>Year:</td>
+
+</tr>
+<tr>
+	<form action="">
+	<td colspan="2">
+	<input type="text" name="subject">
+	</td>
+	<td>
+	<input type="text" name="year">
+	</td>
+	</form>
+</tr>
+</table>
+<h2>Photo</h2>
+<hr>
+<table>
+<tr>
+	<td>
+	<input type="file" >
+	</td>
+</tr>
+<tr>
+	<td>
+	<h6>Image size should be 300x300 (Max 100KB)in JPG Formet</h6>
+	</td>
+</tr>
+</table>
+<h2>Security</h2>
+<hr>
+<table>
+<form action="">
+<tr>
+	<td>Type the code:<sup>*</sup></td>
+</tr>
+<tr>
+
+	<td>
+	<input type="number" >
+	</td>
+	<td>
+	<input type="img">
+	</td>
+
+</tr>
+<tr>
+
+		<td><input type="reset"></td>
+		<td><input type="Submit" value="Save"></td>
+</tr>
+</form>
+</table>
+</body>
+</html>
